@@ -79,3 +79,5 @@ nav a { flex: 0 1 auto; white-space: nowrap; }
     flex: 0 1 auto;
   }
 }
+
+/* Pages deployment refresh: responsive navigation and compact action buttons are part of this shared stylesheet. */
