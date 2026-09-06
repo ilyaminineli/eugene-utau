@@ -20,10 +20,62 @@ audio { min-height: 36px; }
 .telegram-grid .media-card { overflow: hidden; }
 .telegram-grid iframe { max-width: 100% !important; }
 
+/* Compact tactile controls inspired by the Iirai mobile layout. */
+nav { overflow-x: visible; }
+nav a { flex: 0 1 auto; white-space: nowrap; }
+.button-row { align-items: center; }
+.button-row .button { width: auto; flex: 0 1 auto; }
+
 @media (max-width: 760px) {
   .media-grid,
   .telegram-grid,
   .media-feature { grid-template-columns: 1fr; }
   .media-feature { padding: .8rem; }
   .media-copy { padding-top: .2rem; }
+
+  nav {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .45rem;
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+
+  nav a {
+    flex: 0 1 auto;
+    min-width: 0;
+    width: auto;
+  }
+
+  .button-row {
+    justify-content: flex-start;
+  }
+
+  .button-row .button {
+    width: auto;
+    flex: 0 1 auto;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    justify-content: center;
+    overflow-x: visible;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    flex: 0 1 auto;
+    width: auto;
+  }
+
+  .button-row {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-row .button {
+    flex: 0 1 auto;
+  }
 }
