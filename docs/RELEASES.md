@@ -1,42 +1,32 @@
 # Releases & Future Eugene Revisions
 
-## Current baseline
+## Current releases
 
-The currently released voicebank is the canonical baseline. Future revisions must preserve its original release as an archived, reproducible version.
+### 友人 — Original
+Released 12 June 2026. This generation remains the preserved baseline and stays available as an independent release.
 
-## Voicebank functions for future revisions
+### 友人RE — Eugene:RE v2.0
+Released 05 October 2026.
 
-These are planned enhancement directions, not claims about the current bank:
+- Japanese CVVC voicebank
+- 3 subbanks: _G4 / _F3 / _B2
+- Expanded phonetic coverage and additional consonants
+- Breath, vocal fry, rough textures and expressive material
+- Moresampler expression support
+- GitHub: https://github.com/ilyaminineli/eugene-utau/releases/tag/%E5%8F%8B%E4%BA%BARE
+- BowlRoll: https://bowlroll.net/file/361801
 
-- Additional pitch layers for smoother register transitions.
-- Expanded CVVC coverage and repaired/expanded aliases where useful.
-- More consistent difficult-consonant and transition recordings.
-- Improved OTO configuration with documented alias behavior.
-- Optional soft/breathy, dark, strong or other clearly named tone variants.
-- Dedicated expression recordings for dynamics, tension or growl where technically justified.
-- Better OpenUtau phonemizer compatibility.
-- Prefix-map conventions documented and tested across revisions.
-- Dedicated demos for every new pitch or tone layer.
-- Fixed regression phrases for comparing new revisions against the original.
+## Future revisions
 
-## Distribution and tooling functions
-
-- Machine-readable metadata.
-- Release manifests and checksums.
-- Automated validation of aliases, WAV files, oto.ini and package structure.
-- Example UST/USTX projects.
-- Installation and troubleshooting documentation.
-- Search-friendly metadata for UTAU/OpenUtau directories.
+Future versions may add pitch layers, aliases, expression material, compatibility improvements, validation, demos and other documented enhancements. These are future possibilities only and are not part of the current releases.
 
 ## Revision model
 
 ### v1.x
-
-Maintenance releases: bug fixes, OTO corrections, compatibility improvements and documentation changes without changing the fundamental voicebank identity.
+Maintenance releases for the original generation.
 
 ### v2.x
-
-Major voicebank expansion: new recordings, pitch layers, expression layers or tone variants. Each major revision should have new demos, a complete changelog and preserved access to the original release.
+Major expansions such as 友人RE. Each major revision is preserved as its own reproducible release.
 
 ## Principle
 

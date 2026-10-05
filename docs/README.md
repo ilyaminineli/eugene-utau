@@ -7,6 +7,6 @@ This directory contains the canonical project documentation.
 - `USAGE.md` — UTAU/OpenUtau usage guide
 - `CHARACTER.md` — character and lore reference
 - `MEDIA.md` — official demos, songs and external appearances
-- `RELEASES.md` — release and future-revision plan
+- `RELEASES.md` — release history and future-revision plan
 
 The supplied official manual is the source of truth for released-bank metadata, credits and terms.

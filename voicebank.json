@@ -1,29 +1,29 @@
 {
   "name": "友人",
   "romanized_name": "Eugene",
-  "type": "UTAU voicebank",
+  "type": "UTAU voicebank family",
   "engines": ["UTAU", "OpenUtau"],
   "language": "Japanese",
-  "recording_method": "CVVC",
-  "encoding": "Romaji-encoded",
-  "aliasing": "CVVC",
-  "gender": "Fluid / Non-binary",
-  "pronouns": "he/him",
-  "age": 20,
-  "height_cm": 159,
-  "weight_kg": 43,
-  "species": "Human (augmented)",
-  "birthday": "2026-06-06",
-  "pitches": ["C3", "G3", "C4"],
-  "range": "G#3-D3",
-  "optimal_bpm": "70-120",
-  "genres": ["Dark pop", "Industrial", "Experimental"],
-  "features": ["Consonant clarity", "High end", "Bass"],
-  "recommended_tools": [
-    "TIPS",
-    "Moresampler",
-    "WORLDLINE-R",
-    "wavtool4vcv"
+  "generations": [
+    {
+      "name": "友人",
+      "romanized_name": "Eugene",
+      "release_date": "2026-06-12",
+      "recording_method": "CVVC",
+      "pitches": ["C3", "G3", "C4"]
+    },
+    {
+      "name": "友人RE",
+      "romanized_name": "Eugene:RE",
+      "version": "v2.0",
+      "release_tag": "友人RE",
+      "release_date": "2026-10-05",
+      "recording_method": "CVVC",
+      "subbanks": ["_G4", "_F3", "_B2"],
+      "ranges": ["F4-B7", "D#3-E4", "C1-D3"],
+      "samples": "44.1kHz / 16-bit",
+      "approximate_sample_size": "~500MB"
+    }
   ],
   "credits": {
     "creator": "Ilya Minin (Eli)",
@@ -32,10 +32,13 @@
     "oto_technical": "eikton"
   },
   "official_links": {
-    "repository": "https://github.com/ELIASADAMS/eugene-utau",
-    "website": "https://eliasadams.github.io/eugene-utau/",
+    "repository": "https://github.com/ilyaminineli/eugene-utau",
+    "website": "https://ilyaminineli.github.io/eugene-utau/",
     "wiki": "https://utau.fandom.com/wiki/%E5%8F%8B%E4%BA%BA",
-    "bowlroll": "https://bowlroll.net/file/350273"
+    "original_bowlroll": "https://bowlroll.net/file/354839",
+    "eugene_re_bowlroll": "https://bowlroll.net/file/361801",
+    "eugene_re_release": "https://github.com/ilyaminineli/eugene-utau/releases/tag/%E5%8F%8B%E4%BA%BARE",
+    "contact": "https://t.me/ilyaminineli"
   },
   "canonical_documents": {
     "manual": "docs/MANUAL.md",
