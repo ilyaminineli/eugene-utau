@@ -1,109 +1,86 @@
-# 友人 (Eugene) — Voicebank Specification
+# 友人 (Eugene) / 友人RE — Voicebank Specification
 
-This document consolidates the technical metadata from the official 友人 (Eugene) manual so the repository, website, and release documentation can use one consistent specification.
+This document consolidates the technical metadata for the 友人 voicebank family.
 
-## Basic Information
+## Generation 1 — 友人
+
+- Engine: UTAU / OpenUtau
+- Language: Japanese
+- Recording: Japanese CVVC
+- Encoding: Romaji-encoded, CVVC aliased
+- Pitches: C3 / G3 / C4
+- Range: G#3–D3
+- Optimum BPM: 70–120
+- Genres: Dark pop / Industrial / Experimental
+- Main strengths: Consonant clarity; high end; bass
+
+The original voice is warm, intimate, gentle and expressive, with a slightly uncanny edge.
+
+## Generation 2 — 友人RE
+
+**v2.0 · Released 05 October 2026**
+
+### Basic information
 
 | Field | Value |
 |---|---|
-| Name | 友人 (Eugene) |
-| Gender | Fluid / Non-binary |
-| Pronouns | he/him |
-| Age | 20 |
-| Height | 159 cm |
-| Weight | 43 kg |
-| Species | Human (augmented) |
-| Birthday | June 6, 2026 |
-| Creator | Ilya Minin (Eli) |
+| Name | 友人RE (Eugene:RE) |
 | Voice Provider | Possum Eugene |
-| Illustrator | Ilya Minin (Eli) |
+| Creator / Character Design | Ilya Minin (Eli) |
 | OTO / Technical | eikton |
-
-## Voicebank
-
-| Field | Official value |
-|---|---|
 | Engine | UTAU / OpenUtau |
 | Language | Japanese |
-| Recording method | Japanese CVVC |
-| Encoding | Romaji-encoded |
-| Aliasing | CVVC aliased |
-| Pitches | C3 / G3 / C4 |
-| Range | G#3–D3 |
-| Optimum BPM | 70–120 |
-| Genres | Dark pop / Industrial / Experimental |
-| Main strengths | Consonant clarity; high end and bass |
+| Recording | Japanese CVVC |
+| Encoding | Romaji-encoded, CVVC aliased |
+| Subbanks | _G4 / _F3 / _B2 |
+| Ranges | F4–B7 / D#3–E4 / C1–D3 |
+| Samples | 44.1kHz / 16-bit |
+| Approx. sample size | ~500MB |
 
-## Recommended Resamplers / Tools
+### Features
 
-- **TIPS** — primary recommendation for bass preservation.
-- **Moresampler** — recommended for custom flags and expression control.
-- **WORLDLINE-R** — recommended alternative.
-- **wavtool4vcv** — recommended alternative.
+- Additional samples and consonant releases
+- Expanded phonetic coverage
+- Long vowels
+- Glottal stops
+- Vocal fry
+- Breath material
+- Rougher vocal textures
+- Laughs, giggles, sobs, coughs, throat sounds and gasps
+- Moresampler expressions: Breathiness, Tension, Growl, etc.
 
-## Moresampler Expressions
+### Recommended setup
 
-The official manual recommends Moresampler for custom expression control.
+- OpenUtau 0.10+ (Windows/Linux)
+- 4GB+ RAM
+- Moresampler
+- TIPS
+- WORLDLINE-R
+
+Moresampler is especially useful for custom expression control.
 
 | Parameter | Range | Function |
 |---|---:|---|
 | Velocity | 0–200 | Consonant strength |
-| Gender | -100 to 100 | Formant shift (deep/light) |
+| Gender | -100 to 100 | Formant shift |
 | Tone Shift | -36 to 36 | Pitch selection |
 | Breathiness | 0–100 | Added noise |
 | Tension | -200 to 200 | Voice strength |
 | Growl | 0–100 | Guttural effect |
 
-## Voice Character
+## Voice character
 
-The voice has a warm, intimate tone with a slightly uncanny edge. It was built from preserved fragments, reconstructed phonemes, and extensive post-production, giving it a lived-in quality that feels human, fragile, and strangely returned.
+友人RE is a non-binary voicebank with a warm, lived-in timbre that feels intimate, distant and strangely returned. It sounds gentle and human while carrying mystery, melancholy and unresolved disappearance.
 
-The voice is gentle and expressive, with a natural softness in sustained phrases. It works especially well for melancholic songs, slow emotional lines, and lyrical arrangements.
-
-## Character Summary
-
-友人 (Eugene) is a non-binary character using he/him pronouns. His official profile describes a quiet, unresolved presence associated with memory, disappearance, unfinished things, and the feeling of someone returning from somewhere no one can name.
-
-### Visual design
-
-- Blue hair with bright streaks.
-- Small devil horns as part of Eugene's identity.
-- Sharp features, bold eyeliner, and a confident, playful smile.
-- Vivid purple turtleneck.
-- Shiny grey bomber jacket.
-- Black-and-white checkered pleated mini-skirt.
-- Bright opaque blue stockings.
-- Layered necklaces with a bee pendant.
-
-### Likes
-
-- Possums.
-- Old Vocaloid scene.
-- Eerie early VocaPi tracks.
-- Small personal obsessions, niche voices, and haunting music.
-- Being left alone to think, rest, or drift off without pressure.
-- Weird and unpolished people and things.
-- People who understand preservation as an act of love.
-
-### Dislikes
-
-- Being pushed to perform or explain himself when exhausted.
-- Shallow positivity and fake politeness.
-- Noise and pressure.
-- Being misunderstood, dismissed, or treated as though he should be “normal”.
-- Attempts to erase his differences, softness, or the truth of his pain.
-
-### Relationship
-
-**茜音イーライ (Akane Iirai)** — a close companion who understands him in ways normal people do not.
+The RE identity is best understood as **continuity through reconstruction**: the original 友人 remains preserved, while RE gives the same character a new and expanded voice.
 
 ## Credits
 
-- **Creator:** Ilya Minin (Eli)
-- **Voice Provider:** Possum Eugene
-- **Illustrator:** Ilya Minin (Eli)
-- **OTO / Technical:** eikton
+- Creator: Ilya Minin (Eli)
+- Voice Provider: Possum Eugene
+- Character Design: Ilya Minin (Eli)
+- OTO / Technical: eikton
 
-## Canonical Source
+## Canonical source
 
-The official supplied manual is the authoritative source for this metadata. When another repository or website page needs this information, update it from this document instead of creating a second independent specification.
+Use the generation-specific release material and terms for current distribution and permissions. The original 友人 release remains an archived, independent baseline.
