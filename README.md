@@ -1,91 +1,114 @@
-# 友人 (Eugene) — Japanese CVVC UTAU Voicebank
+# 友人 (Eugene) / 友人RE — Japanese UTAU Voicebank Family
 
-Official repository for **友人 (Eugene)**, a Japanese CVVC UTAU voicebank by **Ilya Minin (Eli)**.
+Official repository for **友人 (Eugene)** and **友人RE (Eugene:RE)** by **Ilya Minin (Eli)**.
 
-> A warm, intimate voice with a slightly uncanny edge — built from preserved fragments, reconstructed phonemes, and extensive post-production.
+> **The Friend You Hear Differently.**
 
-## Quick Links
+The archive keeps the original 友人 voicebank preserved while 友人RE expands the same character through a new recording foundation, broader phonetic coverage and additional expressive material.
 
-- [Official Website](https://eliasadams.github.io/eugene-utau/)
-- [Download](https://github.com/ELIASADAMS/eugene-utau/releases)
-- [BowlRoll](https://bowlroll.net/file/354839)
-- [UTAU Wiki](https://utau.fandom.com/wiki/%E5%8F%8B%E4%BA%BA)
-- [Documentation](docs/README.md)
-- [Official Manual](docs/MANUAL.md)
-- [Technical Specifications](docs/VOICEBANK.md)
-- [Usage Guide](docs/USAGE.md)
-- [Character](docs/CHARACTER.md)
-- [Media Archive](docs/MEDIA.md)
-- [Future Revisions](docs/RELEASES.md)
-- [Terms of Use](TERMS.md)
-- [Machine-readable Metadata](voicebank.json)
-- [Changelog](changelog.html)
+## Voicebank Line
 
-## Voicebank Specifications
+### 友人 — Original
+
+The original Japanese CVVC voicebank remains the preserved baseline.
+
+- Engine: UTAU / OpenUtau
+- Language: Japanese
+- Recording: Japanese CVVC
+- Pitches: C3 / G3 / C4
+- Recommended tools: TIPS, Moresampler, WORLDLINE-R, wavtool4vcv
+
+See [Character](eugene.html) and [Technical Specification](docs/VOICEBANK.md).
+
+### 友人RE — Eugene:RE
+
+**Version v2.0 · Released 05 October 2026**
+
+友人RE is a rebuilt and expanded Japanese CVVC voicebank made from preserved remnants, rebuilt phonemes and extensive post-production. Its timbre is warm, lived-in and intimate, with a distant, slightly uncanny quality.
+
+It is designed as a continuation of 友人, not a replacement.
+
+#### RE specifications
 
 | Property | Official value |
 |---|---|
-| Name | 友人 (Eugene) |
+| Name | 友人RE (Eugene:RE) |
+| Version | v2.0 |
 | Engine | UTAU / OpenUtau |
 | Language | Japanese |
-| Recording method | CVVC |
+| Recording | CVVC |
 | Encoding | Romaji-encoded, CVVC aliased |
-| Pitches | C3 / G3 / C4 |
-| Range | G#3–D3 |
-| Optimum BPM | 70–120 |
-| Genres | Dark pop / Industrial / Experimental |
-| Primary recommendation | TIPS |
-| Other recommendations | Moresampler / WORLDLINE-R / wavtool4vcv |
+| Subbanks | _G4 / _F3 / _B2 |
+| Ranges | F4–B7 / D#3–E4 / C1–D3 |
+| Samples | 44.1kHz / 16-bit |
+| Approx. sample size | ~500MB |
+| Recommended | Moresampler / TIPS / WORLDLINE-R |
 
-See [docs/VOICEBANK.md](docs/VOICEBANK.md) for the complete technical specification and expression notes from the official manual.
+RE includes additional samples and consonant releases, plus expressive material such as breath, rough textures, vocal fry and non-standard performance samples.
 
-## About
+## Quick Links
 
-友人 (Eugene) is a Japanese UTAU CVVC voicebank with a warm, intimate tone and a slightly uncanny edge. The voice was created from a carefully preserved collection of remnants, rebuilt phonemes, and heavily post-produced material, giving the feeling of someone speaking back through layers of memory.
+- [Official Website](https://ilyaminineli.github.io/eugene-utau/)
+- [Download / Releases](https://github.com/ilyaminineli/eugene-utau/releases)
+- [BowlRoll — original 友人](https://bowlroll.net/file/354839)
+- [UTAU Wiki](https://utau.fandom.com/wiki/%E5%8F%8B%E4%BA%BA)
+- [友人RE archive](eugene-re.html)
+- [Documentation](docs/README.md)
+- [Official Manual](docs/MANUAL.md)
+- [Technical Specifications](docs/VOICEBANK.md)
+- [Character](docs/CHARACTER.md)
+- [Media Archive](docs/MEDIA.md)
+- [Release History](docs/RELEASES.md)
+- [Terms of Use](TERMS.md)
+- [Machine-readable Metadata](voicebank.json)
 
-The voice is gentle and expressive, with a natural softness in sustained phrases. It works especially well for melancholic songs, slow emotional lines, and lyrical arrangements.
+## About 友人RE
+
+友人RE is a non-binary voicebank with a warm, lived-in timbre that feels intimate, distant and strangely returned. It exists as a quiet echo of someone beloved — a voice that was never meant to be lost and has somehow found its way back.
+
+The original 友人 stays available as its own preserved generation.
 
 ## Installation
 
-1. Download the latest release from [GitHub Releases](https://github.com/ELIASADAMS/eugene-utau/releases) or the [BowlRoll distribution](https://bowlroll.net/file/354839).
+1. Download the desired release from [GitHub Releases](https://github.com/ilyaminineli/eugene-utau/releases).
 2. Extract the voicebank archive.
-3. Install it into your UTAU `voice` directory, or import it into OpenUtau according to your normal voicebank workflow.
+3. Install it into UTAU's `voice` directory or import it into OpenUtau according to your usual workflow.
 
 ## Usage
 
-For the recommended setup, start with **TIPS**. Moresampler, WORLDLINE-R, and wavtool4vcv are also supported recommendations from the official manual.
+For 友人RE, start with **Moresampler** or **TIPS**. WORLDLINE-R is also recommended.
 
-The bank is intended for expressive Japanese vocal synthesis and performs especially well in dark pop, industrial, and experimental material.
-
-See [docs/USAGE.md](docs/USAGE.md) for the growing practical guide.
-
-## Character
-
-友人 (Eugene) is a non-binary character who uses he/him pronouns. The official character profile describes him as a quiet presence associated with unfinished things, memory, disappearance, and the feeling of someone returning from somewhere that cannot be named.
-
-See [docs/CHARACTER.md](docs/CHARACTER.md) for the character archive and [docs/MEDIA.md](docs/MEDIA.md) for official works featuring the voice.
+The bank is suited to intimate, melancholic, lyrical, dark pop, industrial and experimental material.
 
 ## Terms of Use
 
-The official terms are maintained in [TERMS.md](TERMS.md). **Please use that document as the canonical version rather than copying or modifying the rules elsewhere.**
+The canonical rules are maintained in [TERMS.md](TERMS.md). For 友人RE, the voicebank name must be credited as **友人RE** or **Eugene:RE**, and the author as **Ilya Minin (Eli)**.
+
+Sexual, political or religious content requires author permission. Violent content is permitted. Criminal/illegal content, explicit underage sexual content, bigotry/hate and violations of UTAU's usage policy are prohibited.
+
+Commercial use requires contacting the author. The voicebank and included assets may not be used in NFT or cryptocurrency projects.
 
 ## Credits
 
 - **Creator:** Ilya Minin (Eli)
 - **Voice Provider:** Possum Eugene
-- **Illustrator:** Ilya Minin (Eli)
+- **Character Design:** Ilya Minin (Eli)
 - **OTO / Technical:** eikton
+
+## Character
+
+友人 is a non-binary character using he/him pronouns, associated with memory, disappearance, unfinished things and the feeling of someone returning from somewhere that cannot be named.
+
+For 友人RE, the preserved voice is treated as a voice reconstructed from fragments and returned through a new recording generation.
 
 ## Repository Structure
 
-- `docs/` — canonical documentation and future archive
-- `assets/` — organized home for future character/promotional assets
-- `voicebank.json` — machine-readable metadata
+- `docs/` — canonical documentation and history
+- `assets/` — character and promotional material
+- `voicebank.json` — machine-readable family metadata
 - `TERMS.md` — canonical terms
-- `index.html`, `info.html`, `download.html`, `changelog.html`, `contact.html` — GitHub Pages site
-- `sample.wav`, `solfege.wav` — current audio samples
-
-The existing root-level web/assets are intentionally preserved for now so the live site remains stable. A later asset migration can move them into `assets/` together with all site path updates.
+- `index.html`, `info.html`, `download.html`, `eugene-re.html`, `changelog.html`, `contact.html` — GitHub Pages site
+- `sample.wav`, `solfege.wav` — audio samples
 
 ## Contact
 
@@ -94,4 +117,4 @@ The existing root-level web/assets are intentionally preserved for now so the li
 
 ## Source of Truth
 
-The supplied official character/voicebank manual is the authoritative source for released-bank metadata, technical specifications, credits, and terms. Repository pages should link to canonical documentation instead of maintaining competing values.
+Use the generation-specific manual/specification and terms as the canonical source for technical values and permissions. The repository pages should reference those documents rather than maintaining competing values.
